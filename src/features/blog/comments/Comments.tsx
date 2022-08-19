@@ -1,8 +1,6 @@
 import { useEffect, useState } from 'react';
-import { Hearts, Puff, Rings, ThreeDots } from 'react-loader-spinner';
-import { addComment } from '../../../api/api';
+import { ThreeDots } from 'react-loader-spinner';
 import { useAppDispatch, useAppSelector } from '../../../app/hooks';
-import { CommentParams } from '../../../common/types';
 import {
   addPostComment,
   getPostComments,
