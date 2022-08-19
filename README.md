@@ -1,7 +1,8 @@
 # Blog App
 
-This App was created using create-react-app with redux-typescript template.
-The app is hosted here [https://blog-app-76db4.web.app/](https://blog-app-76db4.web.app/)
+This App was created using create-react-app with redux-typescript template.\
+The app is hosted here [https://blog-app-76db4.web.app/](https://blog-app-76db4.web.app/)\
+Check it out :)
 
 ## How to install locally
 
