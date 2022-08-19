@@ -4,7 +4,7 @@ import { useAppDispatch } from '../../app/hooks';
 import { addPost } from '../../features/blog/blogSlice';
 import { Button } from '../button/Button.css';
 import CustomModal from '../custom-modal/CustomModal';
-import { HeaderTitle, HeaderWrapper } from './Header.css';
+import { CustomLink, HeaderTitle, HeaderWrapper } from './Header.css';
 
 const Header = () => {
   const dispatch = useAppDispatch();
@@ -28,7 +28,9 @@ const Header = () => {
   return (
     <>
       <HeaderWrapper>
-        <HeaderTitle>Simple Blog App</HeaderTitle>
+        <HeaderTitle>
+          <CustomLink to="/">Simple Blog App</CustomLink>
+        </HeaderTitle>
         <Button onClick={handleShow}>Add new Post</Button>
       </HeaderWrapper>
       <CustomModal
