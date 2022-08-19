@@ -1,7 +1,5 @@
 import { useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
-import { createPost, updatePost } from '../../api/api';
-import { addPost } from '../../features/blog/blogSlice';
 import { Button } from '../button/Button.css';
 import Input from '../input/Input';
 import TextArea from '../text-area/TextArea';
