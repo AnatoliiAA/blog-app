@@ -48,7 +48,7 @@ export const blogSlice = createSlice({
       state.status = action.payload;
     },
     addPost: (state, action: PayloadAction<PostParams>) => {
-      state.posts.push(action.payload);
+      state.posts.unshift(action.payload);
     },
     setPost: (state, action: PayloadAction<PostParams>) => {
       const element = state.posts.filter((post) => post.id === action.payload.id)[0];
